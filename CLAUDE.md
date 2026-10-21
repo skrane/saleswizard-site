@@ -13,10 +13,17 @@ commit, push to `main`, then confirm in plain language what a visitor will see.
 - This repo is the homepage **mockup**: one static page (`index.html` plus images).
   It publishes to GitHub Pages at https://skrane.github.io/saleswizard-site/ (the repo
   was renamed from `saleswizard-mockup`; GitHub redirects the old name).
-- Gaps versus the live site, so this repo cannot replace it yet:
-  - Live has `/about`, `/support`, `/privacy`, `/terms`, `/demo`, `/login`; this repo has none.
-  - Live has App Store and Google Play badges and a footer; this repo does not.
-  - Live writes "Sales Wizard" (two words); this repo uses "SalesWizard".
+- Rebuilt here from the live site's text (2026-10-21): `about.html`, `support.html`,
+  `privacy.html`, `terms.html`, `demo.html` (Calendly embed), the App Store / Google Play
+  badges, and the full footer. Marketing pages use the one-word brand "SalesWizard"; the
+  Privacy and Terms text is copied word-for-word, so it still says "Sales Wizard".
+- Removed on purpose: the setup fee (pricing row, FAQ sentence, and the About-page line).
+- Still missing, so this repo cannot replace the live site yet:
+  - `/login`: the live Sign in goes to a web app we have no source for. The Sign in links here
+    point at `https://saleswizard.app/login`, which only works while Vercel serves the domain.
+  - Anything else behind the live site's login (manager dashboard, any API).
+- Internal links are relative (`about`, `demo`, `./#how`) so they work on GitHub Pages and
+  Cloudflare Pages. Locally, `python3 -m http.server` needs `about.html`, not `about`.
 
 If Steven asks to change saleswizard.app, say plainly that the live source is still
 unlocated, and do not tell him it is live after pushing here. To resolve it: get into the
