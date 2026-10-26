@@ -42,3 +42,13 @@ the domain to Cloudflare Pages (ask first before touching DNS).
   inside Google Drive (`Claude Projects/SalesWizard/SalesWizard app/mockup`); syncing a
   `.git` folder through Drive can corrupt it.
 - Logos, decks, pricing research: Google Drive, `Claude Projects/SalesWizard/`.
+
+
+## Documents in the cloud (not in this repo)
+
+Steven keeps decks, contracts, spreadsheets and other documents in OneDrive and Google
+Drive, both synced to this Mac. Look there before saying a document does not exist, and
+save new documents there, not in this repo. Paths on this Mac:
+
+- OneDrive: `~/Library/CloudStorage/OneDrive-Personal/SalesWizard` (company docs such as articles of incorporation and EIN, email signatures, PPT, Aerus, misc)
+- Google Drive: `~/Library/CloudStorage/GoogleDrive-skrane@skrane.com/My Drive/Claude Projects/SalesWizard` (prospecting, app notes, logo, competitor pricing, Lessons from the Edge)
