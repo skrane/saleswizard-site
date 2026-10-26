@@ -38,7 +38,7 @@ the domain to Cloudflare Pages (ask first before touching DNS).
 
 ## Where things live
 
-- Code: this repo, working copy at `~/Projects/saleswizard-site`. Do not edit the old copy
+- Code: this repo, working copy at `~/Projects/SalesWizard/site`. Do not edit the old copy
   inside Google Drive (`Claude Projects/SalesWizard/SalesWizard app/mockup`); syncing a
   `.git` folder through Drive can corrupt it.
 - Logos, decks, pricing research: Google Drive, `Claude Projects/SalesWizard/`.
